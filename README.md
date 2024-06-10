@@ -14,8 +14,8 @@ DAYS_THRESHOLD=100
 You should create .env file as described above
 
 ```
-docker pull mistergrib/ssl_checker:v1.1
-docker run --env-file .env --name ssl_checker -d mistergrib/ssl_checker:v1.1
+docker pull mistergrib/ssl_checker:latest
+docker run --env-file .env --name ssl_checker -d mistergrib/ssl_checker:latest
 ```
 
 The script runs once, after which the container stops.
